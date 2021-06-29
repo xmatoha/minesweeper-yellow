@@ -1,0 +1,6 @@
+#kaocha/v1 {:plugins [:kaocha.plugin/cloverage]
+            :color?                      true
+            :cloverage/opts {:summary true :codecov? true :lcov? true}
+            :reporter  [kaocha.report/documentation]}
+
+
