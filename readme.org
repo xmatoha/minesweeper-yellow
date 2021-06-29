@@ -17,10 +17,13 @@ You don't have to mark all the bombs to win; you just need to open all non-bomb 
   - State "IN-PROGRESS" from "TODO"       [2021-06-29 Tue 07:49]
 ** IN-PROGRESS US1
    :LOGBOOK:
-   CLOCK: [2021-06-29 Tue 07:51]
+   CLOCK: [2021-06-29 Tue 07:51]--[2021-06-29 Tue 08:14] =>  0:23
    :END:
    - State "IN-PROGRESS" from "TODO"       [2021-06-29 Tue 07:51]
 Description: As a player I want to start game by specifying board size
 and difficulty (number of mines) so that I can start playing game
 *** UAT1 Given board size(n) create empty board with size n*n
 *** UAT2 Given board of size n and number of mines (m), spread mines on board randomly so that number of mines is m 
+*** extract mines count into separate function                           :tb:
+
+
