@@ -10,6 +10,17 @@ clear a square with 0 neighboring bombs, all its neighbors will automatically op
 The first square you open could be a bomb.
 You don't have to mark all the bombs to win; you just need to open all non-bomb squares  
 
-* TODO exploration, base usecases
-  
-  
+* IN-PROGRESS exploration, base usecases
+  :LOGBOOK:
+  CLOCK: [2021-06-29 Tue 07:49]--[2021-06-29 Tue 07:51] =>  0:02
+  :END:
+  - State "IN-PROGRESS" from "TODO"       [2021-06-29 Tue 07:49]
+** IN-PROGRESS US1
+   :LOGBOOK:
+   CLOCK: [2021-06-29 Tue 07:51]
+   :END:
+   - State "IN-PROGRESS" from "TODO"       [2021-06-29 Tue 07:51]
+Description: As a player I want to start game by specifying board size
+and difficulty (number of mines) so that I can start playing game
+*** UAT1 Given board size(n) create empty board with size n*n
+*** UAT2 Given board of size n and number of mines (m), spread mines on board randomly so that number of mines is m 
